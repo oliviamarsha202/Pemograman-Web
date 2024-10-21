@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakaian Sesuai Undertone dan Ukuran Tubuh</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Menghubungkan CSS -->
+</head>
+
+<body>
+    <div class="header">
+        <div class="social-links">
+            <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a> | 
+            <a href="https://wa.me/yourphonenumber" target="_blank">WhatsApp</a>
+        </div>
+        <button id="menuButton" onclick="toggleMenu()">☰</button>
+    </div>
+
+    <div class="container">
+        <h1 class="title">Pentingnya Memilih Pakaian yang Sesuai</h1>
+
+        <!-- Full Description Section -->
+        <section id="full-description">
+            <ol>
+                <li>
+                    <h2>Mengenal Undertone Kulit</h2>
+                    <p>Kulit manusia memiliki banyak jenis undertone, yaitu cool, warm, dan neutral. Masing-masing jenis memiliki sifat-sifat tersendiri yang harus dipahami agar pilihan pakaian tepat.</p>
+                </li>
+                <li>
+                    <h3>Cool Tone</h3>
+                    <p>Jika Anda memiliki kulit dengan tone cool, maka warna-warna yang cocok adalah biru, hijau, dan abu-abu. Hindari penggunaan warna merah karena akan memberikan kesan kurang alami.</p>
+                </li>
+                <li>
+                    <h3>Warm Tone</h3>
+                    <p>Sementara itu bagi mereka yang memiliki kulit dengan tone warm, maka warna-warnanya yang cocok adalah merah, jingga, hingga coklat. Penggunaan warna biru dan hijau akan memberikan kesan kurang alami.</p>
+                </li>
+                <li>
+                    <h3>Neutral Tone</h3>
+                    <p>Bagi mereka yang memiliki kulit dengan tone netral, semua warna boleh digunakan tanpa takut salah. Namun pastikan bahwa kombinasi warna yang dipilih masih harmonis dan elegan.</p>
+                </li>
+                <li>
+                    <h2>Pentingnya Memilih Pakaian Berdasarkan Bentuk Tubuh</h2>
+                    <p>Bentuk tubuh juga memainkan peran penting dalam pemilihan pakaian. Setiap bentuk tubuh memiliki gaya dan potongan tertentu yang dapat menonjolkan kelebihan dan menyamarkan kekurangan.</p>
+                </li>
+                <li>
+                    <h2>Kesimpulan</h2>
+                    <p>Dengan memahami undertone kulit dan bentuk tubuh, Anda dapat memilih pakaian yang tidak hanya membuat Anda terlihat baik tetapi juga merasa percaya diri.</p>
+                </li>
+            </ol>
+        </section>
+
+        <!-- Formulir untuk memilih pakaian -->
+        <div class="form-group">
+            <label for="undertone">Pilih Undertone:</label>
+            <select id="undertone">
+                <option value="cool">Cool</option>
+                <option value="warm">Warm</option>
+                <option value="neutral">Neutral</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="size">Pilih Ukuran Tubuh:</label>
+            <select id="size">
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+        </div>
+
+        <button id="recommend">Dapatkan Rekomendasi</button>
+
+        <!-- Tempat untuk menampilkan rekomendasi pakaian -->
+        <h2>Rekomendasi Pakaian:</h2>
+        <div id="result" class="result-box">
+            <div id="recommendation-text"></div>
+            <img id="recommendation-image" src="" alt="" style="display:none; max-width: 100%; margin-top: 10px;">
+        </div>
+
+    </div>
+
+    <!-- Menyertakan JavaScript -->
+    <script src="script.js"></script> 
+</body>
+
+</html>
