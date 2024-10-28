@@ -56,7 +56,7 @@ nav h2 {
 }
 
 .nav-links a:hover {
-    background-color: #ff6600; /* Highlight color on hover */
+    background-color: #333; /* Changed to dark gray */
     color: white; /* Maintain white text on hover */
 }
 
@@ -86,7 +86,7 @@ header p {
 }
 
 header .btn {
-    background-color: #ff6600;
+    background-color: #333; /* Changed to dark gray */
     color: white;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
@@ -96,7 +96,7 @@ header .btn {
 }
 
 header .btn:hover {
-    background-color: #e65c00;
+    background-color: #444; /* Changed to darker gray */
     transform: scale(1.05);
 }
 
@@ -118,7 +118,7 @@ header .btn:hover {
     color: #666;
 }
 
-
+/* Body Types Section */
 #body-types {
     padding: 4rem 0;
     background-color: #ffffff;
@@ -129,11 +129,11 @@ header .btn:hover {
     font-size: 2.5rem;
     margin-bottom: 2rem;
     color: #333;
-} 
+}
 
 #body-types p {
-        font-size: 1.2rem;
-        color: #666;
+    font-size: 1.2rem;
+    color: #666;
 }
 
 /* Undertones Section */
@@ -150,59 +150,50 @@ header .btn:hover {
 
 .undertone-grid {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 /* Opsi Fashion Section */
 #options {
-    padding: 4rem 0;
-    background-color: #ffffff; /* Warna latar belakang putih */
-    text-align: center; /* Rata tengah teks */
+    padding: 4rem 0; /* Sama dengan bagian lain */
+    background-color: #f7f7f7; /* Warna abu-abu */
+    text-align: center;
 }
 
 #options h2 {
-    font-size: 2.5rem; /* Ukuran font judul */
-    margin-bottom: 2rem; /* Jarak bawah judul */
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333;
 }
 
 .options-grid {
-    display: flex; /* Mengatur tampilan menjadi flex */
-    justify-content: space-around; /* Jarak antar item */
-    align-items: flex-start; /* Rata atas item */
-    flex-wrap: wrap; /* Membungkus item jika ruang terbatas */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto; /* Tambahkan margin untuk pusat */
+    width: 90%; /* Sama dengan container lain */
 }
 
 .option-item {
     flex-basis: 22%; /* Lebar item */
-    background-color: #f9f9f9; /* Warna latar belakang item */
-    border-radius: 10px; /* Sudut membulat */
-    padding: 1.5rem; /* Jarak dalam item */
-    margin: 1rem; /* Jarak antar item */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Tambahkan transisi */
+}
+
+.option-item:hover {
+    transform: translateY(-5px); /* Efek hover untuk item */
 }
 
 .option-item h3 {
-    font-size: 1.5rem; /* Ukuran font untuk judul opsi */
-    margin-bottom: 1rem; /* Jarak bawah judul opsi */
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .option-item p {
-    color: #666; /* Warna teks untuk deskripsi */
-}
-
-#contact {
-    padding: 4rem 0;
-    background-color: #ffffff;
-    text-align: center;
-}
-
-#contact h2 {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-    color: #333;
-} 
-
-#contact p {
-        font-size: 1.2rem;
-        color: #666;
+    color: #666;
 }
