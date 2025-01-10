@@ -13,10 +13,11 @@
         <div class="container">
             <h2>Gaya Kita</h2>
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="undertones.html">Undertones</a></li>
-                <li><a href="body-types.html">Body Types</a></li>
-                <li><a href="options.html">Options</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="importance.php">Importance</a></li>
+                <li><a href="undertones.php">Undertones</a></li>
+                <li><a href="body-types.php">Body Types</a></li>
+                <li><a href="options.php">Options</a></li>
             </ul>
         </div>
     </nav>

@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fashion Essentials</title>
+    <title>GAYA KITA</title>
     <link rel="stylesheet" href="styles1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -14,10 +14,11 @@
         <div class="container">
             <h2>Gaya Kita</h2>
             <ul class="nav-links">
-                <li><a href="importance.html">Importance</a></li>
-                <li><a href="undertones.html">Undertones</a></li>
-                <li><a href="body-types.html">Body Types</a></li>
-                <li><a href="options.html">options</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="importance.php">Importance</a></li>
+                <li><a href="undertones.php">Undertones</a></li>
+                <li><a href="body-types.php">Body Types</a></li>
+                <li><a href="options.php">Options</a></li>
             </ul>
         </div>
     </nav>
